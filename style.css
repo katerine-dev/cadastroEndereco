@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #2387a2;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #21a1a8;
+}
+
+body.dark {
+    background-color: #333;
+    color: #eee;
+}
+
+#botaoTema {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #91a1b1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 10px;
+}
