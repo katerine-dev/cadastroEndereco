@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     
     // Salvar dados no localStorage
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
+    form.addEventListener("submit", (evento) => {
+        evento.preventDefault();
         const formData = {};
         new FormData(form).forEach((value, key) => {
             formData[key] = value;
